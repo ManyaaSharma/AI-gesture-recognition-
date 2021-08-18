@@ -15,6 +15,7 @@ function draw(){
     background("#606363");
     fill("#000000");
     stroke("#ffffff");
+    rectMode(CENTER);
     square(noseX, noseY, difference);
 }
 function modelLoaded(){
